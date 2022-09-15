@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-suite type="TestSuite" id="1010" name="TestRunnerPlayground" fullname="TestRunnerPlayground" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2022-09-15 16:47:11Z" end-time="2022-09-15 16:47:11Z" duration="0.043348" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+  <properties />
+  <failure>
+    <message><![CDATA[One or more child tests had errors]]></message>
+  </failure>
+  <test-suite type="Assembly" id="1015" name="EditMode.dll" fullname="C:/Users/iffn1/Documents/UnityProjects/TestRunnerPlayground/Library/ScriptAssemblies/EditMode.dll" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2022-09-15 16:47:11Z" end-time="2022-09-15 16:47:11Z" duration="0.031715" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="_PID" value="33212" />
+      <property name="_APPDOMAIN" value="Unity Child Domain" />
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestFixture" id="1011" name="EditModeTest" fullname="EditModeTest" classname="EditModeTest" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2022-09-15 16:47:11Z" end-time="2022-09-15 16:47:11Z" duration="0.030639" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties />
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-case id="1012" name="LinearColorSpace" fullname="EditModeTest.LinearColorSpace" methodname="LinearColorSpace" classname="EditModeTest" runstate="Runnable" seed="389502482" result="Passed" start-time="2022-09-15 16:47:11Z" end-time="2022-09-15 16:47:11Z" duration="0.011986" asserts="0">
+        <properties />
+      </test-case>
+      <test-case id="1014" name="MeshesUseCorretIndexFormat" fullname="EditModeTest.MeshesUseCorretIndexFormat" methodname="MeshesUseCorretIndexFormat" classname="EditModeTest" runstate="Runnable" seed="2006395286" result="Failed" start-time="2022-09-15 16:47:11Z" end-time="2022-09-15 16:47:11Z" duration="0.006131" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[  The object old_planks has more than 65535 vertices while not using the 32bit index format
+  Expected: UInt32
+  But was:  UInt16
+]]></message>
+          <stack-trace><![CDATA[at EditModeTest.MeshesUseCorretIndexFormat () [0x0002f] in C:\Users\iffn1\Documents\UnityProjects\TestRunnerPlayground\Assets\Tests\EditMode\EditModeTest.cs:117
+]]></stack-trace>
+        </failure>
+      </test-case>
+      <test-case id="1013" name="ValidateAtmpshere" fullname="EditModeTest.ValidateAtmpshere" methodname="ValidateAtmpshere" classname="EditModeTest" runstate="Runnable" seed="393107581" result="Passed" start-time="2022-09-15 16:47:11Z" end-time="2022-09-15 16:47:11Z" duration="0.001584" asserts="0">
+        <properties />
+      </test-case>
+    </test-suite>
+  </test-suite>
+</test-suite>
