@@ -5,10 +5,10 @@ https://docs.unity3d.com/Packages/com.unity.test-framework@1.1/manual/index.html
 
 This project was created using Unity 2022.1.10f1 on Windows 10 (Download: https://unity3d.com/get-unity/download/archive )
 
-The scrips being tested can be found in: ```Assets\ScriptsToBeTested```
+The scrips being tested can be found in: ```Assets\ScriptsToBeTested``` [[Link]](https://github.com/iffn/TestRunnerPlayground/tree/main/Assets/ScriptsToBeTested)
 
 ## Edit mode tests:
-Scripts located in: ```Assets\Tests\EditMode```
+Scripts located in: ```Assets\Tests\EditMode``` [[Link]](https://github.com/iffn/TestRunnerPlayground/tree/main/Assets/Tests/EditMode)
 The edit mode tests run in the Unity Editor.
 - The LinearColorSpace function checks if the Color space of the project is set to linear.
 - The MeshUsesCorrectIndexForamt function checks if all meshes in the current scene use the correct index format.
@@ -25,12 +25,12 @@ When the Unity project is closed, these tests can also using the command line.
 
 Note: The ```-quit``` command does not need to be added since the editor exits itself (Otherwise, the xml will output will not be generated at the moment)
 
-The output is saved as an .xml file and added to ```Assets\Tests\EditMode\Output```
+The output is saved as an .xml file and added to ```Assets\Tests\EditMode\Output``` [[Link]](https://github.com/iffn/TestRunnerPlayground/tree/main/Assets/Tests/EditMode/Output)
 
 Note: If you haven't opened the project before, running the command for the first time can take a bit but it should eventually finish and generate the xml. You can check the Task Manager to see if the process is still running.
 
 ## Play mode test:
-Scripts located in: ```Assets\Tests/PlayMode```
+Scripts located in: ```Assets\Tests\PlayMode``` [[Link]](https://github.com/iffn/TestRunnerPlayground/tree/main/Assets/Tests/PlayMode)
 The play mode test runs in the Play mode of Unity the Unity Editor
 
 The VelocityPredictionTest checks if the VelocityPrediction class is able to predict the velocity of a Rigidbody after a certain amount of time.
