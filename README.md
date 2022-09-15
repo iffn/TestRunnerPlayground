@@ -27,6 +27,8 @@ Note: The ```-quit``` command does not need to be added since the editor exits i
 
 The output is saved as an .xml file and added to ```Assets\Tests\EditMode\Output```
 
+Note: If you haven't opened the project before, running the command for the first time can take a bit but it should eventually finish and generate the xml. You can check the Task Manager to see if the process is still running.
+
 ## Play mode test:
 Scripts located in: ```Assets\Tests/PlayMode```
 The play mode test runs in the Play mode of Unity the Unity Editor
